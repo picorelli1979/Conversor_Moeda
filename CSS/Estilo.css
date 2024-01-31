@@ -1,0 +1,210 @@
+
+
+header{
+    display: flex;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border: solid black;
+    border-radius: 15px;   
+}
+
+.Logo_Investing img{
+    width:70px;
+    border: solid black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 400px; 
+    cursor: pointer;   
+}
+.Logo_Ibovespa img{
+    width:70px;
+    border: solid black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 300px; 
+    cursor: pointer;   
+}
+
+.Titulo{
+    background-color: lightgray;
+    display: flex;
+    margin-bottom: 20px;
+    border: solid black;
+    border-radius: 15px;   
+}
+
+.Navbar{
+    display: flex;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.Navbar ul{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+a{
+   font-size: 28px;
+   padding: 10px; 
+   text-decoration: none;
+   color:  black;
+   font-weight: bold;
+}
+
+section{
+   background-image: url(../IMG/dolar-levycam.jpg); 
+   border: solid black;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+}
+
+.Container_Dolar{
+    background-color: greenyellow;
+    border: solid black;
+    border-radius: 15px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.Container_Euro{
+    background-color:greenyellow;
+    border: solid black;
+    border-radius: 15px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.Container_Bitcoin{
+    background-color: greenyellow;
+    border: solid black;
+    border-radius: 15px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+input{
+   width: 300px;
+   height:50px;
+   border: solid black 3px;
+   border-radius: 10px;
+   font-size: 20px;
+   padding: 5px;
+}
+
+.Container_1{
+    background-color:lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;  
+    border: solid black;
+    border-radius: 15px;    
+}
+
+.Container_2{
+    background-color:lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 15px;    
+}
+
+.Bandeira_Americana img{
+    width:40px;
+}
+
+.Bandeira_Inglaterra img{
+    width:40px;
+}
+.Bandeira_Japao img{
+    width:40px;
+}
+.Bandeira_Sao_Paulo img{
+    width:40px;
+}
+
+button{
+   font-size:20px; 
+   width: 110px;
+   height: 40px;
+   border: solid black 3px;
+   border-radius: 5px;
+   margin:10px;
+   background-color: blue;
+   color: white;
+   box-shadow: 5px 5px 5px black;
+}
+
+button:hover{
+  background-color:red;
+  cursor: pointer;
+}
+
+#Text_Moeda{
+   font-size: 25px;
+
+}
+
+.Caixa_USA{
+
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    border: solid black 3px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.Caixa_EUR{
+
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    border: solid black 3px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.Caixa_BTC{
+
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    border: solid black 3px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+
+}

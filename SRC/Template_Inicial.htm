@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="../CSS/Estilo.css">
+</head>
+<body>
+        <header>
+               <h1>Cotações On-line: </h1>
+
+               <div class="Logo_Investing">
+                   <a href="https://www.investing.com/" target="_blank" rel="external">
+                       <img src="../IMG/download.jpg" alt="Investing">
+                   </a>
+
+               </div>
+               
+               <div class="Logo_Ibovespa">
+                    <a href="https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm" target="_blank" rel="external">
+                       <img src="../IMG/b3-on-nm--600.png" alt="ibovespa">
+                    </a>
+               </div>
+              
+
+        </header>
+
+        <div class="Titulo">
+              <h1> Jornais & Noticias : </h1>
+
+              <div class="Navbar">
+                  <nav>
+                      <ul>
+                        <div class="Bandeira_Americana">
+                            <img src="../IMG/bandeira-dos-estados-unidos-da-america_1401-253.avif">
+                            <a href="https://www.nytimes.com/"  target="_blank" rel="external">|| The New York Times ||</a>
+                        </div>
+
+                        <div class="Bandeira_Inglaterra">
+                            <img src="../IMG/images.jpg" alt="">
+                            <a href="https://www.thetimes.co.uk/" target="_blank" rel="external">|| The Times ||</a>
+                        </div>
+                        <div class="Bandeira_Japao">
+                            <img src="../IMG/a5d688289cd6850016f14fe93b17da01.png" alt="">
+                            <a href="https://www.yomiuri.co.jp/" target="_blank" rel="external">|| Yomiuri Shimbun ||</a>
+                        </div>
+                        <div class="Bandeira_Sao_Paulo">
+                            <img src="../IMG/Bandeira_do_estado_de_São_Paulo.svg.png" alt="">
+                            <a href="https://www.folha.uol.com.br/" target="_blank" rel="external">|| Folha de São Paulo ||</a>
+                        </div>
+                        
+                      </ul>
+                    
+                  </nav>
+              </div>
+         
+
+        </div>
+
+        <main>
+
+            <div class="Container_1">
+
+                <h2>Moeda Principal: </h2>
+
+                <input type="text" id="Text_Moeda" placeholder="BRL">
+
+                <button onclick="Converter()">Converter</button>
+
+                <button onclick="Limpar()">Limpar</button>
+            
+            </div>
+
+            <div class="Container_2">
+
+                <h2>Moedas Convertidas: </h2>
+
+                <div class="Caixa_USA">
+                     <span id="Dolar_USA"></span>
+                </div>
+
+                <div class="Caixa_EUR">
+                    <span id="Euro_EUR"></span>
+                </div>
+
+                <div class="Caixa_BTC">
+                   <span id="Bitcoin_BTC"></span>
+                </div>
+
+
+
+            </div>
+
+</main>
+
+        <section>
+
+                <div class="Container_Dolar">
+
+                    <div class="Time">
+                        
+                        <h2 id="title"></h2>
+                        
+                        <h3 id="date">
+                            DATA: <span id="thisdate"></span>
+                        </h3>
+
+                    </div>
+
+
+                    <div class="Box_Valor">
+                        <h2>Valor Maximo = <span id="maxvalue_Dolar"></span></h2> 
+                        <h2>Valor Minimo = <span id="minvalue_Dolar"></span></h2>
+                    </div>
+
+                </div>      
+                
+                
+                <div class="Container_Euro">
+
+                    <div class="Time">
+                        
+                        <h2 id="title_euro"></h2>
+                        
+                        <h3 id="date_euro">
+                            DATA: <span id="thisdate_euro"></span>
+                        </h3>
+
+                    </div>
+
+
+                    <div class="Box_Valor">
+                        <h2>Valor Maximo = <span id="maxvalue_Euro"></span></h2> 
+                        <h2>Valor Minimo = <span id="minvalue_Euro"></span></h2>
+                    </div>
+
+                </div>  
+
+                <div class="Container_Bitcoin">
+
+                    <div class="Time">
+                        
+                        <h2 id="title_bitcoin"></h2>
+                        
+                        <h3 id="date_bitcoin">
+                            DATA: <span id="thisdate_bitcoin"></span>
+                        </h3>
+
+                    </div>
+
+
+                    <div class="Box_Valor">
+                        <h2>Valor Maximo = <span id="maxvalue_Bitcoin"></span></h2> 
+                        <h2>Valor Minimo = <span id="minvalue_Bitcoin"></span></h2>
+                    </div>
+
+                </div>  
+
+        </section>
+
+
+        <script src="../JS/Botao.js"></script>
+
+        <script src="../JS/Codigo.js"></script>
+    
+</body>
+</html>
